@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  @apply bg-deepPurple text-white font-pixel;
+  background-image: radial-gradient(circle at 20% 20%, #3c007b, #2d0069 70%);
+}
